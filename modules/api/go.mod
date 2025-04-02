@@ -2,13 +2,15 @@ module k8s.io/dashboard/api
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	github.com/distribution/reference v0.6.0
 	github.com/emicklei/go-restful-openapi/v2 v2.11.0
 	github.com/emicklei/go-restful/v3 v3.12.1
 	github.com/go-openapi/spec v0.21.0
 	github.com/prometheus/client_golang v1.20.5
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.6
 	golang.org/x/net v0.34.0
 	gopkg.in/igm/sockjs-go.v2 v2.1.0
 	k8s.io/api v0.32.0
