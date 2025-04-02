@@ -2,9 +2,11 @@ module k8s.io/dashboard/certificates
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	k8s.io/api v0.32.0
-	k8s.io/apimachinery v0.32.0
+	k8s.io/apimachinery v0.32.3
 )
 
 require (
