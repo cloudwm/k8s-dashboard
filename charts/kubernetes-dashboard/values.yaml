@@ -144,7 +144,7 @@ auth:
   role: auth
   image:
     repository: harbor-il.cloudwm.com/services/dashboard-auth
-    tag: 1.32
+    version: 1.32
   scaling:
     replicas: 1
     revisionHistoryLimit: 10
@@ -185,7 +185,7 @@ provision:
   role: provision
   image:
     repository: harbor-il.cloudwm.com/services/cwm-provisioner
-    tag: 1.32
+    version: 1.32
   scaling:
     replicas: 1
     revisionHistoryLimit: 10
@@ -211,7 +211,7 @@ api:
   role: api
   image:
     repository: harbor-il.cloudwm.com/services/dashboard-api
-    tag: 1.32
+    version: 1.32
   scaling:
     replicas: 1
     revisionHistoryLimit: 10
@@ -272,7 +272,7 @@ web:
   image:
     pullPolicy: Always
     repository: harbor-il.cloudwm.com/services/dashboard-web 
-    tag: 1.32
+    version: 1.32
   scaling:
     replicas: 1
     revisionHistoryLimit: 10
