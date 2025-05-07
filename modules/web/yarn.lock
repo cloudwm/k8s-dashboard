@@ -6569,9 +6569,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swimlane/ngx-charts@npm:21.1.3":
-  version: 21.1.3
-  resolution: "@swimlane/ngx-charts@npm:21.1.3"
+"@swimlane/ngx-charts@npm:22.0.0":
+  version: 22.0.0
+  resolution: "@swimlane/ngx-charts@npm:22.0.0"
   dependencies:
     d3-array: ^3.2.0
     d3-brush: ^3.0.0
@@ -6589,15 +6589,15 @@ __metadata:
     gradient-path: ^2.3.0
     tslib: ^2.3.1
   peerDependencies:
-    "@angular/animations": 17.x || 18.x
-    "@angular/cdk": 17.x || 18.x
-    "@angular/common": 17.x || 18.x
-    "@angular/core": 17.x || 18.x
-    "@angular/forms": 17.x || 18.x
-    "@angular/platform-browser": 17.x || 18.x
-    "@angular/platform-browser-dynamic": 17.x || 18.x
+    "@angular/animations": 17.x || 18.x || 19.x
+    "@angular/cdk": 17.x || 18.x || 19.x
+    "@angular/common": 17.x || 18.x || 19.x
+    "@angular/core": 17.x || 18.x || 19.x
+    "@angular/forms": 17.x || 18.x || 19.x
+    "@angular/platform-browser": 17.x || 18.x || 19.x
+    "@angular/platform-browser-dynamic": 17.x || 18.x || 19.x
     rxjs: 7.x
-  checksum: 96edfffd3bc01de65c2d142d2ed23c2695784630cb38cad799ded10777fe37b248ec97e2ab06c8f47e62e9bd7d4927e1235c230fe92544bd60c4cda961a9b787
+  checksum: f29cff7cca0b88f74c1a27567e31d90eff5c7d5be57473111e4c72be6c96758896f653f392c25eca541fb2932e17bdd32327c73efba4cfed0ac28ebc5c9be20e
   languageName: node
   linkType: hard
 
@@ -15081,7 +15081,7 @@ __metadata:
     "@graphql-mesh/openapi": 0.108.23
     "@graphql-mesh/runtime": 0.105.17
     "@graphql-mesh/transform-replace-field": 0.103.19
-    "@swimlane/ngx-charts": 21.1.3
+    "@swimlane/ngx-charts": 22.0.0
     "@types/d3": 7.4.3
     "@types/d3-scale": 4.0.9
     "@types/file-saver": 2.0.7
