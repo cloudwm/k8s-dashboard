@@ -3490,19 +3490,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/webpack-preprocessor@npm:6.0.2":
-  version: 6.0.2
-  resolution: "@cypress/webpack-preprocessor@npm:6.0.2"
+"@cypress/webpack-preprocessor@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@cypress/webpack-preprocessor@npm:7.0.1"
   dependencies:
     bluebird: 3.7.1
     debug: ^4.3.4
     lodash: ^4.17.20
+    semver: ^7.3.2
   peerDependencies:
-    "@babel/core": ^7.0.1
-    "@babel/preset-env": ^7.0.0
-    babel-loader: ^8.3 || ^9
-    webpack: ^4 || ^5
-  checksum: fa7dd5481a34df4817b7baade460483deae548b99403e0eeed45c345e49a8c3adf37b20ffa6a37f89fb0fbba303885d580160d56243c83692c2fa63f5ad2c5e6
+    "@babel/core": ^7.28.0
+    "@babel/preset-env": ^7.26.0
+    babel-loader: ^9 || ^10
+    webpack: ^5
+  checksum: d218fc9a55a43431c45e14ede39333270b04ed98335fdc1684b3355e39e0f152770bb834a2b9eb05ce95b53ec26ab6f10d25b96ea6ca77030376cfa37f3f1582
   languageName: node
   linkType: hard
 
@@ -15076,7 +15077,7 @@ __metadata:
     "@babel/core": 7.26.9
     "@babel/preset-env": 7.26.9
     "@babel/register": 7.25.9
-    "@cypress/webpack-preprocessor": 6.0.2
+    "@cypress/webpack-preprocessor": 7.0.1
     "@graphql-mesh/cli": 0.99.0
     "@graphql-mesh/openapi": 0.108.23
     "@graphql-mesh/runtime": 0.105.17
@@ -18652,6 +18653,15 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 7427f05b70786c696640edc29fdd4bc33b2acf3bbe1740b955029044f80575fc664e1a512e4113c3af21e767154a94b4aa214bf6cd6e42a1f6dba5914e0b208c
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.2":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
+  bin:
+    semver: bin/semver.js
+  checksum: dd94ba8f1cbc903d8eeb4dd8bf19f46b3deb14262b6717d0de3c804b594058ae785ef2e4b46c5c3b58733c99c83339068203002f9e37cfe44f7e2cc5e3d2f621
   languageName: node
   linkType: hard
 
