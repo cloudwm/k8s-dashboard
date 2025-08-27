@@ -12164,6 +12164,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.4":
+  version: 6.5.0
+  resolution: "fdir@npm:6.5.0"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: bd537daa9d3cd53887eed35efa0eab2dbb1ca408790e10e024120e7a36c6e9ae2b33710cb8381e35def01bc9c1d7eaba746f886338413e68ff6ebaee07b9a6e8
+  languageName: node
+  linkType: hard
+
 "figures@npm:^3.0.0, figures@npm:^3.2.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
@@ -15128,7 +15140,7 @@ __metadata:
     ng-extract-i18n-merge: 2.14.1
     ngx-cookie-service: 19.1.2
     ngx-pipes: 3.2.2
-    node-gyp: 11.1.0
+    node-gyp: 11.4.2
     normalize.css: 8.0.1
     prettier: 3.5.2
     q: 1.5.1
@@ -16423,23 +16435,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:11.1.0":
-  version: 11.1.0
-  resolution: "node-gyp@npm:11.1.0"
+"node-gyp@npm:11.4.2":
+  version: 11.4.2
+  resolution: "node-gyp@npm:11.4.2"
   dependencies:
     env-paths: ^2.2.0
     exponential-backoff: ^3.1.1
-    glob: ^10.3.10
     graceful-fs: ^4.2.6
     make-fetch-happen: ^14.0.3
     nopt: ^8.0.0
     proc-log: ^5.0.0
     semver: ^7.3.5
     tar: ^7.4.3
+    tinyglobby: ^0.2.12
     which: ^5.0.0
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: b196da39a7a45f302d6e03cfdb579eeecbfffa1ab3796de45652c2c0dcbf46b83fde715b054e4d00aa53da5f33033ac5791e20cbb7cc11267dac4f8975ef276c
+  checksum: d8041cee7ec60c86fb2961d77c12a2d083a481fb28b08e6d9583153186c0e7766044dc30bdb1f3ac01ddc5763b83caeed3d1ea35787ec4ffd8cc4aeedfc34f2b
   languageName: node
   linkType: hard
 
@@ -17354,6 +17366,13 @@ __metadata:
   version: 4.0.2
   resolution: "picomatch@npm:4.0.2"
   checksum: a7a5188c954f82c6585720e9143297ccd0e35ad8072231608086ca950bee672d51b0ef676254af0788205e59bd4e4deb4e7708769226bed725bf13370a7d1464
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^4.0.2":
+  version: 4.0.3
+  resolution: "picomatch@npm:4.0.3"
+  checksum: 6817fb74eb745a71445debe1029768de55fd59a42b75606f478ee1d0dc1aa6e78b711d041a7c9d5550e042642029b7f373dc1a43b224c4b7f12d23436735dba0
   languageName: node
   linkType: hard
 
@@ -19925,6 +19944,16 @@ __metadata:
   version: 1.6.0
   resolution: "tinycolor2@npm:1.6.0"
   checksum: 6df4d07fceeedc0a878d7bac47e2cd47c1ceeb1078340a9eb8a295bc0651e17c750f73d47b3028d829f30b85c15e0572c0fd4142083e4c21a30a597e47f47230
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.12":
+  version: 0.2.14
+  resolution: "tinyglobby@npm:0.2.14"
+  dependencies:
+    fdir: ^6.4.4
+    picomatch: ^4.0.2
+  checksum: 261e986e3f2062dec3a582303bad2ce31b4634b9348648b46828c000d464b012cf474e38f503312367d4117c3f2f18611992738fca684040758bba44c24de522
   languageName: node
   linkType: hard
 
