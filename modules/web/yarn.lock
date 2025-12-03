@@ -7965,10 +7965,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ace-builds@npm:1.39.0":
-  version: 1.39.0
-  resolution: "ace-builds@npm:1.39.0"
-  checksum: b3d31115812d7489a01dabdc723c398692caef74e65b1b2cbfef0180b22c541c9686b75313dd1f17be467bc64ebf93a6448e18bc6bc4d48ff9b544b9742074fc
+"ace-builds@npm:1.43.5":
+  version: 1.43.5
+  resolution: "ace-builds@npm:1.43.5"
+  checksum: 0fd04d99ca78a7b62d500960c51f9730214e16b3d52f1047542bbed66120f10ca7ce07998b39b703ab712020c2c0b6db72ea172e79b3366e0c7f24490b08e188
   languageName: node
   linkType: hard
 
@@ -15093,7 +15093,7 @@ __metadata:
     "@types/node": 22.13.5
     "@typescript-eslint/eslint-plugin": 8.25.0
     "@typescript-eslint/parser": 8.24.0
-    ace-builds: 1.39.0
+    ace-builds: 1.43.5
     codelyzer: 6.0.2
     concurrently: 9.1.2
     core-js: 3.40.0
