@@ -127,7 +127,7 @@
     "jest-preset-angular": "14.5.1",
     "license-check-and-add": "4.0.5",
     "lint-staged": "15.4.3",
-    "lodash-es": "4.17.21",
+    "lodash-es": "4.17.22",
     "minimatch": "10.0.1",
     "minimist": "1.2.8",
     "ng-extract-i18n-merge": "2.14.1",
