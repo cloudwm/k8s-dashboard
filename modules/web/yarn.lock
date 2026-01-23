@@ -15158,7 +15158,7 @@ __metadata:
     typescript: 5.1.6
     wait-on: 8.0.2
     web-animations-js: 2.3.2
-    webpack-bundle-analyzer: 4.10.2
+    webpack-bundle-analyzer: 5.2.0
     webpack-dev-server: 5.2.0
     xterm: 5.3.0
     xterm-addon-fit: 0.8.0
@@ -18893,14 +18893,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sirv@npm:^2.0.3":
-  version: 2.0.4
-  resolution: "sirv@npm:2.0.4"
+"sirv@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "sirv@npm:3.0.2"
   dependencies:
     "@polka/url": ^1.0.0-next.24
     mrmime: ^2.0.0
     totalist: ^3.0.0
-  checksum: 6853384a51d6ee9377dd657e2b257e0e98b29abbfbfa6333e105197f0f100c8c56a4520b47028b04ab1833cf2312526206f38fcd4f891c6df453f40da1a15a57
+  checksum: 570cc6c079e9b4161a6120239db2d97d7c34d216dc2b96b2c2e9d16d3afebc2495c98e8ade8fdaf16c0a49490e52009664261caaa640477f3a3ca518282ba007
   languageName: node
   linkType: hard
 
@@ -20906,9 +20906,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-bundle-analyzer@npm:4.10.2":
-  version: 4.10.2
-  resolution: "webpack-bundle-analyzer@npm:4.10.2"
+"webpack-bundle-analyzer@npm:5.2.0":
+  version: 5.2.0
+  resolution: "webpack-bundle-analyzer@npm:5.2.0"
   dependencies:
     "@discoveryjs/json-ext": 0.5.7
     acorn: ^8.0.4
@@ -20916,15 +20916,14 @@ __metadata:
     commander: ^7.2.0
     debounce: ^1.2.1
     escape-string-regexp: ^4.0.0
-    gzip-size: ^6.0.0
     html-escaper: ^2.0.2
     opener: ^1.5.2
     picocolors: ^1.0.0
-    sirv: ^2.0.3
-    ws: ^7.3.1
+    sirv: ^3.0.2
+    ws: ^8.19.0
   bin:
     webpack-bundle-analyzer: lib/bin/analyzer.js
-  checksum: 4f0275e7d87bb6203a618ca5d2d4953943979d986fa2b91be1bf1ad0bcd22bec13398803273d11699f9fbcf106896311208a72d63fe5f8a47b687a226e598dc1
+  checksum: 81db649d8423ff3fca61531d55831c6d361b7f268d4569014806760bc4fa6b67131cf8f8f933022358faa57abe2a22fdfcd219a4d28c37e29cedee87a6a747fb
   languageName: node
   linkType: hard
 
@@ -21418,7 +21417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.3.1, ws@npm:^7.4.6":
+"ws@npm:^7.4.6":
   version: 7.5.10
   resolution: "ws@npm:7.5.10"
   peerDependencies:
@@ -21460,6 +21459,21 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 91d4d35bc99ff6df483bdf029b9ea4bfd7af1f16fc91231a96777a63d263e1eabf486e13a2353970efc534f9faa43bdbf9ee76525af22f4752cbc5ebda333975
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.19.0":
+  version: 8.19.0
+  resolution: "ws@npm:8.19.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 7a426122c373e053a65a2affbcdcdbf8f643ba0265577afd4e08595397ca244c05de81570300711e2363a9dab5aea3ae644b445bc7468b1ebbb51bfe2efb20e1
   languageName: node
   linkType: hard
 
