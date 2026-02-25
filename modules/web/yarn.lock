@@ -13023,10 +13023,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:16.10.0":
-  version: 16.10.0
-  resolution: "graphql@npm:16.10.0"
-  checksum: 969c2d1061d69ad6fe08a7fe642428212b0b8485a2f9b5d8650203eb6c3221479e81ec6a757708f849d84b85afcb3ebc5a8ff2f71778bb66c5e4850f051c170e
+"graphql@npm:16.13.0":
+  version: 16.13.0
+  resolution: "graphql@npm:16.13.0"
+  checksum: 61d6dbad4742863f6e2bb0d44c466e789ecb687f9ab6c9eb768f584724e9d0e4992b1ef7672063e2f7db41b86fde10ef4952fdbee08e7489ea5be61ce07e70bb
   languageName: node
   linkType: hard
 
@@ -15110,7 +15110,7 @@ __metadata:
     eslint-plugin-rxjs: 5.0.3
     file-saver: 2.0.5
     git-describe: 4.1.1
-    graphql: 16.10.0
+    graphql: 16.13.0
     husky: 9.1.7
     jasmine-core: 5.6.0
     jasmine-spec-reporter: 7.0.0
