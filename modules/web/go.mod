@@ -1,6 +1,6 @@
 module k8s.io/dashboard/web
 
-go 1.23.0
+go 1.25.0
 
 require (
 	dario.cat/mergo v1.0.1
@@ -8,7 +8,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/samber/lo v1.47.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/text v0.21.0
+	golang.org/x/text v0.37.0
 	k8s.io/api v0.32.0
 	k8s.io/apimachinery v0.32.0
 	k8s.io/client-go v0.32.0
