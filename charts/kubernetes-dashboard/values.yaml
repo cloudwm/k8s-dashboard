@@ -143,7 +143,7 @@ app:
 auth:
   role: auth
   image:
-    repository: harbor-us-ny2.cloudwm.com/services/dashboard-auth
+    repository: harbor-il.cloudwm.com/microk8s/dashboard-auth
     tag: "v1.32"
   scaling:
     replicas: 1
@@ -184,7 +184,7 @@ auth:
 provision:
   role: provision
   image:
-    repository: harbor-us-ny2.cloudwm.com/services/cwm-provisioner
+    repository: harbor-il.cloudwm.com/microk8s/cwm-provisioner
     tag: "v1.32"
   scaling:
     replicas: 1
@@ -210,7 +210,7 @@ provision:
 api:
   role: api
   image:
-    repository: harbor-us-ny2.cloudwm.com/services/dashboard-api
+    repository: harbor-il.cloudwm.com/microk8s/dashboard-api
     tag: "v1.32"
   scaling:
     replicas: 1
@@ -271,7 +271,7 @@ web:
   role: web
   image:
     pullPolicy: Always
-    repository: harbor-us-ny2.cloudwm.com/services/dashboard-web 
+    repository: harbor-il.cloudwm.com/microk8s/dashboard-web
     tag: "v1.32"
   scaling:
     replicas: 1
@@ -334,7 +334,7 @@ metricsScraper:
   enabled: true
   role: metrics-scraper
   image:
-    repository: docker.io/kubernetesui/dashboard-metrics-scraper
+    repository: harbor-il.cloudwm.com/microk8s/dashboard-metrics-scraper
     tag: 1.2.2
   scaling:
     replicas: 1
