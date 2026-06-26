@@ -14671,10 +14671,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-base64@npm:3.7.7":
-  version: 3.7.7
-  resolution: "js-base64@npm:3.7.7"
-  checksum: d1b02971db9dc0fd35baecfaf6ba499731fb44fe3373e7e1d6681fbd3ba665f29e8d9d17910254ef8104e2cb8b44117fe4202d3dc54c7cafe9ba300fe5433358
+"js-base64@npm:3.8.0":
+  version: 3.8.0
+  resolution: "js-base64@npm:3.8.0"
+  checksum: 0f12cb2d88af4d143824c23684255bda3b2acb487bd889f54ed74ad93308421809d487bea05656675897e4349376c5db18a29c5c09623d3958e8b953d9ac88d9
   languageName: node
   linkType: hard
 
@@ -15116,7 +15116,7 @@ __metadata:
     jasmine-spec-reporter: 7.0.0
     jest: 29.7.0
     jest-preset-angular: 14.5.1
-    js-base64: 3.7.7
+    js-base64: 3.8.0
     js-yaml: 4.1.0
     jwt-decode: 4.0.0
     license-check-and-add: 4.0.5
