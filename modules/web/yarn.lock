@@ -7279,12 +7279,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.13.5":
-  version: 22.13.5
-  resolution: "@types/node@npm:22.13.5"
+"@types/node@npm:26.5.1":
+  version: 26.5.1
+  resolution: "@types/node@npm:26.5.1"
   dependencies:
-    undici-types: ~6.20.0
-  checksum: 8789d9bc3efd212819fd03f7bbd429901b076703e9852ccf4950c8c7cd300d5d5a05f273d0936cbaf28194485d2bd0c265a1a25390720e353a53359526c28fb3
+    undici-types: ~8.9.0
+  checksum: eb3f2aa537b2749e851dc40fbd97aefe281d4aa0de36cc93a3772a2f30821c800782119985d6dbf25f0477bbb0cc04a1ad82c97930b3f904aa6601943025f7d6
   languageName: node
   linkType: hard
 
@@ -15090,7 +15090,7 @@ __metadata:
     "@types/jest": 29.5.14
     "@types/js-yaml": 4.0.9
     "@types/lodash-es": 4.17.12
-    "@types/node": 22.13.5
+    "@types/node": 26.5.1
     "@typescript-eslint/eslint-plugin": 8.25.0
     "@typescript-eslint/parser": 8.24.0
     ace-builds: 1.39.0
@@ -20431,10 +20431,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.20.0":
-  version: 6.20.0
-  resolution: "undici-types@npm:6.20.0"
-  checksum: b7bc50f012dc6afbcce56c9fd62d7e86b20a62ff21f12b7b5cbf1973b9578d90f22a9c7fe50e638e96905d33893bf2f9f16d98929c4673c2480de05c6c96ea8b
+"undici-types@npm:~8.9.0":
+  version: 8.9.0
+  resolution: "undici-types@npm:8.9.0"
+  checksum: 78c081bf592406e4bb8bbcbd6baa5c395b5998b9a6a22786e6df4bb5bc90a86aaaaa43a447b455d90589c8b5f36a5827942c20d5c7248efb66675feec1a7bb02
   languageName: node
   linkType: hard
 
