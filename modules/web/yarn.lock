@@ -8338,6 +8338,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"argparse@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "argparse@npm:3.0.3"
+  checksum: c888652d406b82b1322b7d14ccbd3df9a2e1cd20141416d3cccf505188eac71a5a16136f2ed66aa757dc4840440b39e024c3196f1a9f32629369e5817b603a77
+  languageName: node
+  linkType: hard
+
 "aria-query@npm:^3.0.0":
   version: 3.0.0
   resolution: "aria-query@npm:3.0.0"
@@ -14685,14 +14692,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.1.0, js-yaml@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
+"js-yaml@npm:5.5.0":
+  version: 5.5.0
+  resolution: "js-yaml@npm:5.5.0"
   dependencies:
-    argparse: ^2.0.1
+    argparse: ^3.0.3
   bin:
-    js-yaml: bin/js-yaml.js
-  checksum: c7830dfd456c3ef2c6e355cc5a92e6700ceafa1d14bba54497b34a99f0376cecbb3e9ac14d3e5849b426d5a5140709a66237a8c991c675431271c4ce5504151a
+    js-yaml: bin/js-yaml.mjs
+  checksum: cc72b07047154c8ee26a30f081cd93b99ddd4c5ab06f57ab562f728fdd5b599a7c6658f2b41d5eb11908605c9c2f005b72b56d606a4d9a460cc6324a00ba26dc
   languageName: node
   linkType: hard
 
@@ -14705,6 +14712,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: bef146085f472d44dee30ec34e5cf36bf89164f5d585435a3d3da89e52622dff0b188a580e4ad091c3341889e14cb88cac6e4deb16dc5b1e9623bb0601fc255c
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "js-yaml@npm:4.1.0"
+  dependencies:
+    argparse: ^2.0.1
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: c7830dfd456c3ef2c6e355cc5a92e6700ceafa1d14bba54497b34a99f0376cecbb3e9ac14d3e5849b426d5a5140709a66237a8c991c675431271c4ce5504151a
   languageName: node
   linkType: hard
 
@@ -15117,7 +15135,7 @@ __metadata:
     jest: 29.7.0
     jest-preset-angular: 14.5.1
     js-base64: 3.7.7
-    js-yaml: 4.1.0
+    js-yaml: 5.5.0
     jwt-decode: 4.0.0
     license-check-and-add: 4.0.5
     lint-staged: 15.4.3
